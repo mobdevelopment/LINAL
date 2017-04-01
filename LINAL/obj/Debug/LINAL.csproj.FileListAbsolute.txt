@@ -26,3 +26,4 @@ C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\View\MainWindow.baml
 C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.g.resources
 C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.Properties.Resources.resources
 C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.csproj.GenerateResource.Cache
+C:\Users\mikes\Documents\Git\LINAL\LINAL\bin\Debug\LINAL.exe.config
