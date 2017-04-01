@@ -17,6 +17,7 @@ namespace LINAL.Model.Calc
         {
             this.x = x;
             this.y = y;
+            this.z = 0;
         }
         /* Vector constructor for 3d object */
         public Vector(double x, double y, double z)
@@ -35,15 +36,26 @@ namespace LINAL.Model.Calc
         {
             return "" + this.x + ", " + this.y + ", " + this.z + "";
         }
-
-        public double get2dLength()
-        {
-            return Math.Sqrt(Math.Pow(this.x, 2) + Math.Pow(this.y, 2));
-        }
-
-        public double get3dLength()
+        /* get the length of the vector */
+        public double getLength()
         {
             return Math.Sqrt(Math.Pow(this.x, 2) + Math.Pow(this.y, 2) + Math.Pow(this.z, 2));
         }
+        /* enlarge or shrink vector by inputted value */
+        public static Vector operator *(Vector v, double factor)
+        {
+            return new Vector(v.x * factor, v.y * factor, v.z * factor);
+        }
+        /* add two vectors with eachother */
+        public static Vector operator +(Vector v1, Vector v2)
+        {
+            return new Vector(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
+        }
+        /* subtract vector1 from vector2 */
+        public static Vector operator -(Vector v1, Vector v2)
+        {
+            return new Vector(v1.x - v2.x, v1.y - v2.y, v1.z - v2.z);
+        }
+
     }
 }
