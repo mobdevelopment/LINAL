@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LINAL.Model
 {
-    class Triangle
+    class Triangle : Shape
     {
+        public void draw()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

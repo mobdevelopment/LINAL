@@ -12,3 +12,17 @@ C:\Users\mark_\Documents\LINAL\LINAL\obj\Debug\LINAL.Properties.Resources.resour
 C:\Users\mark_\Documents\LINAL\LINAL\obj\Debug\LINAL.csproj.GenerateResource.Cache
 C:\Users\mark_\Documents\LINAL\LINAL\obj\Debug\LINAL.exe
 C:\Users\mark_\Documents\LINAL\LINAL\obj\Debug\LINAL.pdb
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\bin\Debug\LINAL.exe.config
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.exe
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.pdb
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.csprojResolveAssemblyReference.cache
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\View\MainWindow.g.cs
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\App.g.cs
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL_MarkupCompile.cache
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL_MarkupCompile.lref
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\bin\Debug\LINAL.exe
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\bin\Debug\LINAL.pdb
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\View\MainWindow.baml
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.g.resources
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.Properties.Resources.resources
+C:\Users\mark_\Documents\LINAL_GIT\LINAL\obj\Debug\LINAL.csproj.GenerateResource.Cache

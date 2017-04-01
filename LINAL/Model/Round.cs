@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LINAL.Model
 {
-    class Round
+    class Round : Shape
     {
+        public void draw()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
