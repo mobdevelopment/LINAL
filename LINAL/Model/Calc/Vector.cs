@@ -11,6 +11,7 @@ namespace LINAL.Model.Calc
         public double x { get; set; }
         public double y { get; set; }
         public double z { get; set; }
+        public double w { get; set; }
 
         /* Vector constructor for 2d object */
         public Vector(double x, double y)
@@ -18,6 +19,7 @@ namespace LINAL.Model.Calc
             this.x = x;
             this.y = y;
             this.z = 0;
+            this.w = 1;
         }
         /* Vector constructor for 3d object */
         public Vector(double x, double y, double z)
@@ -25,6 +27,7 @@ namespace LINAL.Model.Calc
             this.x = x;
             this.y = y;
             this.z = z;
+            this.w = 1;
         }
         /* 2d Vector information */
         public string get2dInfo()
@@ -44,7 +47,9 @@ namespace LINAL.Model.Calc
         /* enlarge or shrink vector by inputted value */
         public static Vector operator *(Vector v, double factor)
         {
-            return new Vector(v.x * factor, v.y * factor, v.z * factor);
+            var nv = new Vector(v.x * factor, v.y * factor, v.z * factor);
+            nv.w = v.w;
+            return nv;
         }
         /* add two vectors with eachother */
         public static Vector operator +(Vector v1, Vector v2)
